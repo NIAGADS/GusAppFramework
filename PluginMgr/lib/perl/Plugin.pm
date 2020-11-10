@@ -345,7 +345,7 @@ B<Return type:> C<string>
 # parse out revision from string of the form '$Revision 1.2 $'
 sub getCVSRevision {
   my ($self) = @_;
-  return "dont-care";   # no longer care about cvs revisions
+  return $self->{cvsRevision};   # no longer care about cvs revisions
 }
 
 =item C<getResultDescr>

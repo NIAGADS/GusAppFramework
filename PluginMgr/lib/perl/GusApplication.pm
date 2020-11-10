@@ -1487,5 +1487,3 @@ sub getGlobalEasyCspOptions {
 }
 
 1;
-
-

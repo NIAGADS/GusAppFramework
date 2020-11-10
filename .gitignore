@@ -2,6 +2,10 @@
 .idea/
 *.iml
 
+# Emacs
+*~
+\#*\#
+.\#*
 
 # Eclipse Project Junk
 .settings/
@@ -9,6 +13,9 @@
 .classpath
 .vscode
 
+# GUS MOdel
+Model/lib/perl/*/*.pm
+Model/lib/perl/generated
 
 # Build directories
 /build/
